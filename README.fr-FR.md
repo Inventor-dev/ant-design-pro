@@ -77,32 +77,18 @@ Nous avons besoin de votre aide: https://github.com/ant-design/ant-design-pro/is
 ### Utiliser bash
 
 ```bash
-$ git clone https://github.com/ant-design/ant-design-pro.git --depth=1
-$ cd ant-design-pro
+$ yarn create umi  # or npm create umi
+
+# Choose ant-design-pro:
+ Select the boilerplate type (Use arrow keys)
+❯ ant-design-pro  - Create project with an layout-only ant-design-pro boilerplate, use together with umi block.
+  app             - Create project with a simple boilerplate, support typescript.
+  block           - Create a umi block.
+  library         - Create a library with umi.
+  plugin          - Create a umi plugin.
+
 $ npm install
-$ npm start         # visiter http://localhost:8000
-```
-
-### Utilisation par docker
-
-```bash
-# aperçu
-$ docker pull antdesign/ant-design-pro
-$ docker run -p 80:80 antdesign/ant-design-pro
-# ouvrir http://localhost
-
-# développement
-$ npm run docker:dev
-
-# construction
-$ npm run docker:build
-
-
-# développement en production
-$ npm run docker-prod:dev
-
-# construction en production
-$ npm run docker-prod:build
+$ npm start         # visit http://localhost:8000
 ```
 
 ### Utilisation de Gitpod
@@ -111,7 +97,7 @@ Ouvrez le projet avec Gitpod (environnement de développement gratuit pour GitHu
 
 [![Ouvrir dans Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ant-design/ant-design-pro)
 
-Plus d'instructions dans la  [documentation](http://pro.ant.design/docs/getting-started).
+Plus d'instructions dans la [documentation](http://pro.ant.design/docs/getting-started).
 
 ## Support des navigateurs
 
@@ -128,3 +114,9 @@ Toute forme de contribution est la bienvenue, voici quelques exemples de façons
 - Utiliser Ant Design Pro dans votre travail quotidien.
 - Soumettre des [issues](http://github.com/ant-design/ant-design-pro/issues) pour reporter les bugs ou poser des questions.
 - Proposer des [pull requests](http://github.com/ant-design/ant-design-pro/pulls) pour améliorer notre code.
+
+<div align="center">
+   <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+  </a>
+</div>
